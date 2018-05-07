@@ -112,10 +112,6 @@ class Home extends React.Component {
             <p className="fl_left">Copyright &copy; AHIMSA 2017 - All Rights Reserved</p>
         </div>
         </div>
-        <a id="backtotop" href="#top"><i className="fa fa-chevron-up"></i></a>
-        <script src="../styles/scripts/jquery.min.js"></script>
-        <script src="../styles/scripts/jquery.backtotop.js"></script>
-        <script src="../styles/scripts/jquery.mobilemenu.js"></script>
       </div>
         );
     }

@@ -10,6 +10,12 @@ File: Layout CSS
 
 @import url("framework.css");
 
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+              
+ 
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1{border-top:5px solid;}
@@ -389,7 +395,7 @@ table a, #comments a{background-color:inherit;}
    #info ul{margin-bottom:20px;}
 
    #mainav{}
-   #mainav ul{display:none;}
+   #mainav ul{display:block; font-size: 80%; text-align: center;}
    #mainav form{display:block;}
 
    #breadcrumb{}

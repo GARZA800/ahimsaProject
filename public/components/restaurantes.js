@@ -41,8 +41,8 @@ class Restaurantes extends React.Component {
                console.log(doc.data().comments.length) 
                 //for (let i = 0; i < doc.data().comments.length; i++){
                     //comentarios.push(doc.data().comments[i].text)
-                document.querySelector("#comments0").innerText= doc.data().comments[0].text
-                document.querySelector("#comments1").innerText= doc.data().comments[1].text
+                    document.querySelector("#comments0").innerText= doc.data().comments[0].text
+                    document.querySelector("#comments1").innerText= doc.data().comments[1].text
 
                 //}
             });

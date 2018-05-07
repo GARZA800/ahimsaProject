@@ -87,13 +87,14 @@ class Login extends Component {
                 <div className="login-page">
                     <form onSubmit={this.handleSubmit}>
                         <h2 className="text-center">Inicia Sesión en Ahimsa</h2>
-                        <div id="billboard">
+                        
                             <div className="form">
                                 {/*<input type="text" className="form-control" placeholder="Email" required="required" />*/}
                                 <input type="text" className="form-control" placeholder="Email" required="required" value={this.state.email} onChange={this.handleEmailChange} />
                                 {/*<input type="password" className="form-control" placeholder="Contraseña" required="required" />*/}
                                 <input type="password" className="form-control" placeholder="Contraseña" required="required" value={this.state.password} onChange={this.handlePasswordChange} />
                                 {this.displayError()}
+                                <div id="billboard">
                                 <button type="submit" className="btn uppercase">Iniciar Sesión</button>
                             </div>
                             <button onClick={this.handleSubFace} className="btnFace btn-primary btn-block">Login Facebook</button>
