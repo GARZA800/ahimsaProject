@@ -83,9 +83,9 @@ class Home extends React.Component {
         <div className="wrapper row3">
         <div className="latest">
             <ul className="nospace group">
-            <a><iframe width="425" height="245" src="https://www.youtube.com/embed/y2k4NHjAP84" frameBorder="0" allowFullScreen></iframe></a>
-            <a><iframe width="425" height="245" src="https://www.youtube.com/embed/yxgX_KTm10E" frameBorder="0" allowFullScreen></iframe></a>
-            <a><iframe width="425" height="245" src="https://www.youtube.com/embed/Jf44vLndiRM" frameBorder="0" allowFullScreen></iframe></a>
+            <a><iframe width="33%" height="245" src="https://www.youtube.com/embed/y2k4NHjAP84" frameBorder="0" allowFullScreen></iframe></a>
+            <a><iframe width="33%" height="245" src="https://www.youtube.com/embed/yxgX_KTm10E" frameBorder="0" allowFullScreen></iframe></a>
+            <a><iframe width="33%" height="245" src="https://www.youtube.com/embed/Jf44vLndiRM" frameBorder="0" allowFullScreen></iframe></a>
             </ul>
         </div>
         </div>
